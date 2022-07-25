@@ -17,6 +17,7 @@ Here is what the Social Security Number validation looks like:
 - [Anchors](#anchors)
 - [Quantifiers](#quantifiers)
 - [Character Classes](#character-classes)
+- [Author](#author)
 
 
 
