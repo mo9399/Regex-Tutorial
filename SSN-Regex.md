@@ -59,4 +59,4 @@ Here are some other characters used:
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Mohamed is a Full-Stack Developer. To browse my projects or find my contact information, visit [GitHub](https://github.com/mo9399) or [linkedIn](https://www.linkedin.com/in/mohamed-abdullahi-944b2922b/) page!
