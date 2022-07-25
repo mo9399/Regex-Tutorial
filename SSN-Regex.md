@@ -8,8 +8,9 @@ Before we begin, I should explain what regex is. In a nutshell, it is special st
 Our example works with SSNs which is a sequence of 9 digits formatted as 3 numbers followed by a dash then 2 numbers followed by a dash then 4 numbers followed by a dash. 
 Here is what the Social Security Number validation looks like: 
 
+```
 ^\d{3}-\d{2}-\d{4}$
-
+```
 
 ## Table of Contents
 
@@ -28,11 +29,13 @@ In our SSN example, you can see the symbols signaling the beginning and end of o
 ### Quantifiers
 Quantifiers tell us how many times a character should be present for a match to be found. 
 Basic quantifiers: 
- 
+
+```
 *	0 or more characters  
 + 	1 or more characters 
 ? 	0 or 1 
 {} 	Exact match 
+```
 
 In our SSN example, we were looking for a format that looks exactly like this:
 000-00-0000
@@ -46,11 +49,13 @@ Which would be translated in our Validation to look like this:
 
 To simplify it, character classes are used to distinguish between numbers and letters. Since SSNs are a series of 9 digits only, we used the character class \d. 
 Here are some other characters used: 
+
+```
 \d 	Numbers 0 -9 
 \w 	Letters A-Z , a-z , 0-9) 
 \s 	White space 
 •	Any character
-
+```
 
 ## Author
 
