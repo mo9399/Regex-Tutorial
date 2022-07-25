@@ -19,12 +19,13 @@ Here is what the Social Security Number validation looks like:
 - [Character Classes](#character-classes)
 
 
+
 ## Regex Components
 
 ### Anchors
 
-To keep it simple, anchors are boundaries at the beginning of the string “^”, and the end of the string “$”.  The Boundaries examines the position between characters.
-In our SSN example, you can see the symbols signaling the beginning and end of our validation regex.  Our expression will search for strings that begin with {n} and end with {n}.
+To keep it simple, anchors are boundaries at the beginning of the string `^`, and the end of the string `$`.  The Boundaries examines the position between characters.
+In our SSN example, you can see the symbols signaling the beginning and end of our validation regex.  Our expression will search for strings that begin with `{n}` and end with `{n}`.
 
 ### Quantifiers
 Quantifiers tell us how many times a character should be present for a match to be found. 
@@ -38,7 +39,11 @@ Basic quantifiers:
 ```
 
 In our SSN example, we were looking for a format that looks exactly like this:
+
+```
 000-00-0000
+```
+
 Which would be translated in our Validation to look like this: 
 
 ```
@@ -47,7 +52,7 @@ Which would be translated in our Validation to look like this:
 
 ### Character Classes
 
-To simplify it, character classes are used to distinguish between numbers and letters. Since SSNs are a series of 9 digits only, we used the character class \d. 
+To simplify it, character classes are used to distinguish between numbers and letters. Since SSNs are a series of 9 digits only, we used the character class `\d`. 
 Here are some other characters used: 
 
 ```
